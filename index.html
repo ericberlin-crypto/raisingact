@@ -212,7 +212,7 @@
         currentListenersValue = to;
       }
 
-      btnPrev.disabled = (track === 1);
+      btnPrev.disabled = (track === 0);
       btnNext.disabled = (track === tracks.length);
       btnPrev.style.cursor = btnPrev.disabled ? "default" : "pointer";
       btnNext.style.cursor = btnNext.disabled ? "default" : "pointer";
@@ -261,5 +261,6 @@
   </script>
 </body>
 </html>
+
 
 
